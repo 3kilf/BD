@@ -371,3 +371,119 @@ erDiagram
 5. **Нормализация** - модель соответствует требованиям 3NF/BCNF
 
 Модель эффективно поддерживает все требуемые бизнес-процессы и выходные документы, обеспечивая надежное хранение данных и высокую производительность запросов.
+
+
+# Лабораторная работа 2
+## Создание DDL-запросов для PostgreSQL
+### Создана структура БД в pgAdmin
+
+### Таблица car 
+<img width="974" height="457" alt="image" src="https://github.com/user-attachments/assets/e101b0df-108a-4541-ba9a-3be7ffe9b4af" />
+
+### Таблица client
+<img width="974" height="330" alt="image" src="https://github.com/user-attachments/assets/3758dca3-2cbc-413f-9472-f85d3ae03f88" />
+
+### Таблица parkingzone
+<img width="974" height="334" alt="image" src="https://github.com/user-attachments/assets/83c9704d-ea88-4208-8a7f-52a59ccda07c" />
+
+### Таблица trip
+<img width="974" height="778" alt="image" src="https://github.com/user-attachments/assets/89b5daee-21b8-4e48-a188-71d7f2dd8e39" />
+<img width="974" height="872" alt="image" src="https://github.com/user-attachments/assets/9d6fb9c4-e3f1-4795-8c23-d1d3317604f8" />
+
+## Таблицы заполнены данными
+### Таблица car 
+<img width="974" height="230" alt="image" src="https://github.com/user-attachments/assets/5b417b73-58f8-49dc-bdd6-b59a8004d8e4" />
+<img width="974" height="262" alt="image" src="https://github.com/user-attachments/assets/47e5118f-b0e5-4ff0-b965-eeb74099efb3" />
+
+### Таблица client
+<img width="974" height="233" alt="image" src="https://github.com/user-attachments/assets/116f7aca-97bf-4efa-a7a0-a3482736c6a2" />
+<img width="827" height="433" alt="image" src="https://github.com/user-attachments/assets/8d8f1975-7193-4a3b-a074-6e1244f35f94" />
+
+### Таблица parkingzone
+<img width="913" height="245" alt="image" src="https://github.com/user-attachments/assets/e672bdbb-be7c-4973-9ad0-b54c6c53bf15" />
+<img width="734" height="442" alt="image" src="https://github.com/user-attachments/assets/0f72eff2-ec2b-4bde-88a4-7c287d961dd5" />
+
+### Таблица trip
+<img width="974" height="161" alt="image" src="https://github.com/user-attachments/assets/bd269ab9-f470-49ea-85f2-918fbcd1dfdc" />
+<img width="974" height="328" alt="image" src="https://github.com/user-attachments/assets/7f4edbd2-3de1-452c-b224-5aff6a55cf4f" />
+
+
+## Выполнены SELECT-запросы c JOIN
+### Запрос 1.
+**Выдать список самых популярных зон парковки для начала поездок за указанный период, отсортированный по количеству поездок.**.
+<img width="595" height="475" alt="image" src="https://github.com/user-attachments/assets/e9553b26-7c43-4b67-936f-a87d40d2087e" />
+
+### Запрос 2. 
+**Для заданного клиента выдать историю всех поездок с указанием стоимости и пробега, отсортированную по дате поездки.**.
+<img width="749" height="457" alt="image" src="https://github.com/user-attachments/assets/c3b3521c-185c-464d-a449-09922b08b08e" />
+
+# Лабораторная работа 3
+## Представления и процедуры
+### Создано VIEW для запроса
+**Доходность автомобиля**  
+<img width="974" height="706" alt="image" src="https://github.com/user-attachments/assets/9128bf88-3d5a-4915-9eac-d05e09b862a7" />
+**Проверка работы представления**
+<img width="974" height="320" alt="image" src="https://github.com/user-attachments/assets/f754fc00-1305-4818-b0bb-7200857c8976" />
+### Создана функция get_car_statistics
+Создана функиция для анализа производительности автопарка
+<img width="905" height="1103" alt="image" src="https://github.com/user-attachments/assets/29549154-96ed-473c-b0d2-89e57ab2318c" />
+**Проверка работы представления**
+<img width="974" height="344" alt="image" src="https://github.com/user-attachments/assets/0c78b6db-818e-4e6e-8d90-6d57fcf05570" />
+
+
+# Лабораторная работа 4
+## Анализ производительности
+### Созданы генераторы данных, заполняющие таблицы 20000 записями
+## Генератор для таблицы *car*
+<img width="597" height="642" alt="image" src="https://github.com/user-attachments/assets/bcef6f25-53e7-4e4a-a0d4-8eccc545e11f" />
+**Проверка работы представления**
+<img width="421" height="134" alt="image" src="https://github.com/user-attachments/assets/1221c351-7125-40e5-879e-6881a5508d1a" />
+
+## Генератор для таблицы *client*
+<img width="694" height="573" alt="image" src="https://github.com/user-attachments/assets/8fc26e01-43c8-4fe6-96f3-3bdede22ada4" />
+**Проверка работы представления**
+<img width="411" height="130" alt="image" src="https://github.com/user-attachments/assets/97158cfc-3689-4c7c-9363-55008639ea57" />
+
+## Генератор для таблицы *parking_zone*
+<img width="822" height="531" alt="image" src="https://github.com/user-attachments/assets/25eb872a-f004-4448-9268-e92561f9d925" />
+**Проверка работы представления**
+<img width="486" height="122" alt="image" src="https://github.com/user-attachments/assets/7a1ce872-23f5-4a33-8cae-4f196d3d9f82" />
+
+## Генератор для таблицы *trip*
+<img width="639" height="686" alt="image" src="https://github.com/user-attachments/assets/f2fea794-c837-40a5-8da5-7ba0b59cdfa4" />
+**Проверка работы представления**
+<img width="406" height="106" alt="image" src="https://github.com/user-attachments/assets/ffecd143-4c2b-4690-add0-57f386162e83" />
+
+## Проведем анализ плана выполнения основного запроса
+**Самые популярные зоны парковки для начала поездок за 2024 год**
+<img width="718" height="622" alt="image" src="https://github.com/user-attachments/assets/1a83d57c-fc36-4ad0-9b09-ba8eec9334a1" />
+###Происходит полное сканирование таблицы trip (Seq Scan), что неэффективно при большом объеме данных.
+##Оптимизация БД при помощи индексов
+<img width="754" height="192" alt="image" src="https://github.com/user-attachments/assets/4d32f2db-a223-4d3b-8a78-bbaa0473d7d7" />
+##Обновим статистику и посмотрим, что изменилось
+<img width="716" height="660" alt="image" src="https://github.com/user-attachments/assets/7548ac73-ca3e-42dc-95fb-2fc6b31c330a" />
+##Вывод
+**Эффективность индексов: Создание составных индексов (start_zone_id, start_time и client_id, start_time) позволило ускорить выполнение основных запросов в 15-18 раз.**
+**Выбор типа индекса: Для временных диапазонов лучше всего подходит B-дерево, которое эффективно для операторов BETWEEN, >, <.**
+**Статистика: Регулярное обновление статистики (ANALYZE) помогает планировщику запросов выбирать оптимальные планы выполнения.**
+**Специфика схемы piskunova: Все оптимизации применены с указанием схемы piskunova, что обеспечивает корректную работу в вашей структуре БД.**
+**Индексы уже существуют: Согласно структуре таблицы trip, некоторые индексы (idx_trip_client_dates, idx_trip_start_zone_time, idx_trip_start_time) уже созданы. Процедуры генерации используют CREATE INDEX IF NOT EXISTS для предотвращения ошибок.**
+**Производительность: Оптимизация базы данных системы каршеринга успешно выполнена, производительность ключевых запросов соответствует требованиям высокой нагрузки.**
+
+# Лабораторная работа 5
+## Реализация бизнес-логики на уровне БД и системы аудита для системы каршеринга
+## Создадим триггер каскадного удаления для связей "один-ко-многим"
+### При удалении автомобиля, будем удалять все связанные поездки
+## Создадим триггерную функцию delete_car_trips
+<img width="681" height="186" alt="image" src="https://github.com/user-attachments/assets/a27fce5c-1b27-4ac3-9718-98b0865d4864" />
+## Создадим триггер на таблице car
+## Проверка работы триггера
+<img width="516" height="433" alt="image" src="https://github.com/user-attachments/assets/adc56ac8-2d61-4d6b-902e-4c172430be87" />
+## Создадим аналогичный триггер для клиентов
+<img width="671" height="280" alt="image" src="https://github.com/user-attachments/assets/bb6df04d-1369-4452-b85d-fda1b9509fd8" />
+
+## Создадим таблицу-журнал для отслеживания изменений в таблице trip
+<img width="625" height="377" alt="image" src="https://github.com/user-attachments/assets/5e6c1523-d090-4c4a-b246-dc9642ee5b34" />
+
+
+
