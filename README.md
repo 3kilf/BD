@@ -433,10 +433,18 @@ erDiagram
 
 
 ### Создана процедур
-**Процедура 1: Получить популярные зоны за период**
-<img width="905" height="1103" alt="image" src="https://github.com/user-attachments/assets/29549154-96ed-473c-b0d2-89e57ab2318c" />
-**Проверка работы представления**
-<img width="974" height="344" alt="image" src="https://github.com/user-attachments/assets/0c78b6db-818e-4e6e-8d90-6d57fcf05570" />
+**Процедура добавления нового автомобиля**
+<img width="623" height="567" alt="image" src="https://github.com/user-attachments/assets/c41ff36a-0c39-409d-81a4-6ee584036e0c" />
+<img width="712" height="230" alt="image" src="https://github.com/user-attachments/assets/995757b7-4eb7-4510-96de-5df92ebaf721" />
+
+**Процедура добавления нового клиента**
+<img width="533" height="421" alt="image" src="https://github.com/user-attachments/assets/69951d0b-62ee-4055-86eb-802b5a392b72" />
+<img width="465" height="221" alt="image" src="https://github.com/user-attachments/assets/8c81198b-16e2-430a-8b2c-c18521e4d688" />
+
+**Процедура добавления новой зоны парковки**
+<img width="631" height="480" alt="image" src="https://github.com/user-attachments/assets/8ed2eb17-89d5-4c68-aea3-419a09491d21" />
+<img width="446" height="229" alt="image" src="https://github.com/user-attachments/assets/c78caf90-0418-4bda-bdad-f64adfaeef69" />
+
 
 
 # Лабораторная работа 4
