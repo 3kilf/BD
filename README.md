@@ -410,22 +410,30 @@ erDiagram
 
 ## Выполнены SELECT-запросы c JOIN
 ### Запрос 1.
-**Выдать список самых популярных зон парковки для начала поездок за указанный период, отсортированный по количеству поездок.**.
-<img width="595" height="475" alt="image" src="https://github.com/user-attachments/assets/e9553b26-7c43-4b67-936f-a87d40d2087e" />
+**Выдать список самых популярных зон парковки .**
+<img width="507" height="464" alt="image" src="https://github.com/user-attachments/assets/807a58d4-3cce-4185-b2f7-0ab3777e9823" />
 
 ### Запрос 2. 
-**Для заданного клиента выдать историю всех поездок с указанием стоимости и пробега, отсортированную по дате поездки.**.
-<img width="749" height="457" alt="image" src="https://github.com/user-attachments/assets/c3b3521c-185c-464d-a449-09922b08b08e" />
+**История поездок клиента.**.
+<img width="1219" height="535" alt="image" src="https://github.com/user-attachments/assets/173914f0-69ce-4dba-a2a4-7c2fe7821447" />
+
+
 
 # Лабораторная работа 3
 ## Представления и процедуры
 ### Создано VIEW для запроса
-**Доходность автомобиля**  
-<img width="974" height="706" alt="image" src="https://github.com/user-attachments/assets/9128bf88-3d5a-4915-9eac-d05e09b862a7" />
-**Проверка работы представления**
-<img width="974" height="320" alt="image" src="https://github.com/user-attachments/assets/f754fc00-1305-4818-b0bb-7200857c8976" />
-### Создана функция get_car_statistics
-Создана функиция для анализа производительности автопарка
+**Выдать список самых популярных зон парковки .** 
+<img width="600" height="563" alt="image" src="https://github.com/user-attachments/assets/fe0152d5-5191-43e0-a7b0-755d74ad6765" />
+<img width="899" height="296" alt="image" src="https://github.com/user-attachments/assets/43a3976e-a2c7-46c7-a6e0-0d4af9955b0d" />
+**История поездок клиента.**.
+<img width="581" height="696" alt="image" src="https://github.com/user-attachments/assets/52bb0d12-2f7a-47d8-a123-0f2149d6385d" />
+<img width="1400" height="237" alt="image" src="https://github.com/user-attachments/assets/f551b0ed-6fcb-4dde-a403-128ada694a68" />
+**Статистика по автомобилям**
+<img width="684" height="800" alt="image" src="https://github.com/user-attachments/assets/64054758-8acf-44ec-bdd0-27b122341a2b" />
+
+
+### Создана процедур
+**Процедура 1: Получить популярные зоны за период**
 <img width="905" height="1103" alt="image" src="https://github.com/user-attachments/assets/29549154-96ed-473c-b0d2-89e57ab2318c" />
 **Проверка работы представления**
 <img width="974" height="344" alt="image" src="https://github.com/user-attachments/assets/0c78b6db-818e-4e6e-8d90-6d57fcf05570" />
