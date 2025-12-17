@@ -500,6 +500,7 @@ erDiagram
 
 ## Создадим таблицу-журнал для отслеживания изменений в таблице trip
 <img width="625" height="377" alt="image" src="https://github.com/user-attachments/assets/5e6c1523-d090-4c4a-b246-dc9642ee5b34" />
+<img width="778" height="336" alt="image" src="https://github.com/user-attachments/assets/cd8b52f7-9212-4513-88b7-e9d700f4efce" />
 
 
 
